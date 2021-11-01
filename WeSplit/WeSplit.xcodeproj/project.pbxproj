@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2A3EFD272AC7D000B73BE8 /* Historic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A3EFC272AC7D000B73BE8 /* Historic.swift */; };
+		9E2A3EFF272AC90000B73BE8 /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A3EFE272AC90000B73BE8 /* Split.swift */; };
+		9E2A3F01272AD21E00B73BE8 /* HistoricRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A3F00272AD21E00B73BE8 /* HistoricRow.swift */; };
+		9E2A3F03272AD92000B73BE8 /* HistoricSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A3F02272AD92000B73BE8 /* HistoricSplit.swift */; };
+		9E95C9BE272D46E70004015F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E95C9BD272D46E70004015F /* Launch Screen.storyboard */; };
+		9EACAF5C272D7E3800CF746A /* NoHistoricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EACAF5B272D7E3800CF746A /* NoHistoricView.swift */; };
+		9EE2BAF7272985A800568B8A /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2BAF6272985A800568B8A /* WeSplitApp.swift */; };
+		9EE2BAF9272985A800568B8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2BAF8272985A800568B8A /* ContentView.swift */; };
+		9EE2BAFB272985AA00568B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE2BAFA272985AA00568B8A /* Assets.xcassets */; };
+		9EE2BAFE272985AA00568B8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE2BAFD272985AA00568B8A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E2A3EFC272AC7D000B73BE8 /* Historic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historic.swift; sourceTree = "<group>"; };
+		9E2A3EFE272AC90000B73BE8 /* Split.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
+		9E2A3F00272AD21E00B73BE8 /* HistoricRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricRow.swift; sourceTree = "<group>"; };
+		9E2A3F02272AD92000B73BE8 /* HistoricSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricSplit.swift; sourceTree = "<group>"; };
+		9E95C9BD272D46E70004015F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "ViewModels/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9EACAF5B272D7E3800CF746A /* NoHistoricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoHistoricView.swift; sourceTree = "<group>"; };
+		9EE2BAF3272985A800568B8A /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE2BAF6272985A800568B8A /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
+		9EE2BAF8272985A800568B8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9EE2BAFA272985AA00568B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EE2BAFD272985AA00568B8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EE2BAF0272985A800568B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E2A3F04272ADABB00B73BE8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A3EFE272AC90000B73BE8 /* Split.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9E2A3F05272ADAC400B73BE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A3EFC272AC7D000B73BE8 /* Historic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9EE2BAEA272985A800568B8A = {
+			isa = PBXGroup;
+			children = (
+				9EE2BAF5272985A800568B8A /* WeSplit */,
+				9EE2BAF4272985A800568B8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EE2BAF4272985A800568B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EE2BAF3272985A800568B8A /* WeSplit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EE2BAF5272985A800568B8A /* WeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				9EE2BAF6272985A800568B8A /* WeSplitApp.swift */,
+				9EE2BAF8272985A800568B8A /* ContentView.swift */,
+				9EACAF5B272D7E3800CF746A /* NoHistoricView.swift */,
+				9E2A3F00272AD21E00B73BE8 /* HistoricRow.swift */,
+				9E2A3F02272AD92000B73BE8 /* HistoricSplit.swift */,
+				9E2A3F04272ADABB00B73BE8 /* ViewModels */,
+				9E2A3F05272ADAC400B73BE8 /* Models */,
+				9E95C9BD272D46E70004015F /* Launch Screen.storyboard */,
+				9EE2BAFA272985AA00568B8A /* Assets.xcassets */,
+				9EE2BAFC272985AA00568B8A /* Preview Content */,
+			);
+			path = WeSplit;
+			sourceTree = "<group>";
+		};
+		9EE2BAFC272985AA00568B8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9EE2BAFD272985AA00568B8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EE2BAF2272985A800568B8A /* WeSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE2BB01272985AA00568B8A /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildPhases = (
+				9EE2BAEF272985A800568B8A /* Sources */,
+				9EE2BAF0272985A800568B8A /* Frameworks */,
+				9EE2BAF1272985A800568B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeSplit;
+			productName = WeSplit;
+			productReference = 9EE2BAF3272985A800568B8A /* WeSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EE2BAEB272985A800568B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9EE2BAF2272985A800568B8A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 9EE2BAEE272985A800568B8A /* Build configuration list for PBXProject "WeSplit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EE2BAEA272985A800568B8A;
+			productRefGroup = 9EE2BAF4272985A800568B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EE2BAF2272985A800568B8A /* WeSplit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EE2BAF1272985A800568B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E95C9BE272D46E70004015F /* Launch Screen.storyboard in Resources */,
+				9EE2BAFE272985AA00568B8A /* Preview Assets.xcassets in Resources */,
+				9EE2BAFB272985AA00568B8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EE2BAEF272985A800568B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE2BAF9272985A800568B8A /* ContentView.swift in Sources */,
+				9E2A3F01272AD21E00B73BE8 /* HistoricRow.swift in Sources */,
+				9EE2BAF7272985A800568B8A /* WeSplitApp.swift in Sources */,
+				9E2A3F03272AD92000B73BE8 /* HistoricSplit.swift in Sources */,
+				9EACAF5C272D7E3800CF746A /* NoHistoricView.swift in Sources */,
+				9E2A3EFF272AC90000B73BE8 /* Split.swift in Sources */,
+				9E2A3EFD272AC7D000B73BE8 /* Historic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9EE2BAFF272985AA00568B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EE2BB00272985AA00568B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EE2BB02272985AA00568B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chailloleaudamien.WeSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9EE2BB03272985AA00568B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chailloleaudamien.WeSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EE2BAEE272985A800568B8A /* Build configuration list for PBXProject "WeSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE2BAFF272985AA00568B8A /* Debug */,
+				9EE2BB00272985AA00568B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE2BB01272985AA00568B8A /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE2BB02272985AA00568B8A /* Debug */,
+				9EE2BB03272985AA00568B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EE2BAEB272985A800568B8A /* Project object */;
+}
