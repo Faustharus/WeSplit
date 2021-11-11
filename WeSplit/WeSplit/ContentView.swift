@@ -35,9 +35,6 @@ struct ContentView: View {
                 .overlay(
                     formSection
                 )
-                .overlay(
-                    resetButton
-                )
                 .navigationTitle("WeSplit")
                 .navigationBarTitleDisplayMode(.inline)
                 .alert(isPresented: $isAdded) {
@@ -48,6 +45,11 @@ struct ContentView: View {
                 }
                 .toolbar {
                     ToolbarItemGroup(placement: .keyboard) {
+                        Button("Reset") {
+                            amountIsFocused = false
+                            resetField()
+                        }
+                        
                         Spacer()
                         
                         Button("Done") {
@@ -152,27 +154,6 @@ extension ContentView {
             
             Section(header: Text("Amount Per Person with Tips").foregroundColor(.white)) {
                 Text("\(billWithTips, specifier: "%.2f") €")
-            }
-        }
-    }
-    
-    private var resetButton: some View {
-        VStack {
-            // MARK: - Reset Button
-            Spacer()
-            Button(action: {
-                resetField()
-            }) {
-                Text("Reset")
-                    .foregroundColor(.white)
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .frame(height: 55)
-                    .frame(maxWidth: .infinity)
-                    .background(Color(.red))
-                    .cornerRadius(25.0)
-                    .padding(.horizontal, 20)
-                    .padding(.vertical, 0)
             }
         }
     }
